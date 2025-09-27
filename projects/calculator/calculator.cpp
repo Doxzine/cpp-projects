@@ -13,6 +13,7 @@ int main    () {
     std::cout << "Enter your second number: ";
     std::cin >> num2;
 
+
     std::cout << "What operator? (+, -, /, *): ";
     std::cin >> op;
 
@@ -26,7 +27,18 @@ int main    () {
         result = (num1*num2);
     }
     else if (op == "/") {
+        if (num2 == 0) {
+            std::cout << "Cannot divide by 0!";
+            return 1;
+        }
         result = (num1/num2);
     }
-    std::cout << "Your number is, " << result << "!";
+    else {
+        std::cout << "Invalid operator\n";
+        return 1;
+    }
+
+
+    std::cout << "Result: " << result << "\n";
+    return 0;
 }
