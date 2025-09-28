@@ -1,0 +1,69 @@
+🌱 1. Guess the Number Game (Random Numbers + Loops)
+
+Computer picks a random number between 1–100.
+
+You keep guessing until you get it right.
+
+Program gives hints: “Too high!” or “Too low!”.
+
+Teaches:
+
+rand(), srand(time(0))
+
+Loops (while)
+
+Conditional logic
+
+🌱 2. Simple Todo List (Console) (Vectors + Loops)
+
+User can add, view, or delete tasks.
+
+Runs in a loop until they type quit.
+
+Teaches:
+
+std::vector<std::string>
+
+Menus & looping input
+
+Organizing code into functions
+
+🌱 3. Bank Account Simulator (OOP intro)
+
+Create an Account class with balance.
+
+Menu: deposit, withdraw, check balance.
+
+Teaches:
+
+Classes (class, methods, private variables)
+
+Objects & encapsulation
+
+More structured code
+
+🌱 4. Unit Converter
+
+Converts values (miles ↔ km, lbs ↔ kg, °C ↔ °F).
+
+Teaches:
+
+Functions for each conversion
+
+Switch/case statements
+
+Cleaner program flow
+
+🌱 5. Quiz Game
+
+Ask multiple-choice questions.
+
+Score the user at the end.
+
+Teaches:
+
+Arrays or vectors to store questions/answers
+
+Loops over data
+
+Input checking
